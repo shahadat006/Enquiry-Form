@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+.enquiry_form{
+    background-color: #fff;
+    margin: 0 auto;
+    width: 60%;
+    border: 3px solid black;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    height: 870px;
+}
+.logo{
+    width: 70px;
+    padding-left: 25px;
+    padding-top: 15px;
+}
+
+.heading{
+    display: flex;
+}
+.title{
+    text-align: center;
+    text-transform: uppercase;
+    padding-left: 200px;
+    font-family: 'Lato', sans-serif;
+    padding-top: 15px;
+    font-weight: 900;
+}
+.head_content{
+    font-family: 'Lato', sans-serif;
+    padding: 20px 30px;
+    font-weight: 600;
+}
+.form{
+    padding-left: 15px;
+    font-family: sans-serif;
+}
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    font-weight: 700;
+}
+input{
+    padding: 8px 4px;
+    float: right;
+    width: 60%;
+    margin-right: 50px;
+}
+.form_head{
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    padding: 20px 5px;
+}
+button[type="submit"], select{
+    padding: 15px;
+    display: block;
+    float: right;
+    overflow: hidden;
+    color: #fff;
+    background-color: black;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+    margin-top: 35px;
+    margin-left: 137px;
+    margin-right: 48px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+.form_footer{
+    display: block;
+}
+textarea{
+    padding: 8px 4px;
+    float: right;
+    width: 60%;
+    margin-right: 50px;
+    margin-top: -26px;
+}
